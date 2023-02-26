@@ -8,7 +8,7 @@ import {
 } from 'firebase/auth';
 import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../firebase.config';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import googleIcon from '../assets/svg/googleIcon.svg';
 
 const OAuth = () => {
