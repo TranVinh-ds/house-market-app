@@ -16,6 +16,7 @@ import Spinner from '../components/Spinner';
 
 const EditListing = () => {
   //if using geo coding from google api key set to true
+  // eslint-disable-next-line
   const [geolocationEnabled, setGeolocationEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
   const [listing, setListing] = useState(null);
@@ -62,6 +63,7 @@ const EditListing = () => {
       toast.error('You can not edit that listing');
       navigate('/');
     }
+    //eslint-disable-next-line
   }, []);
 
   //fetch listing to edit
