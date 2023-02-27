@@ -50,7 +50,7 @@ const Listing = () => {
               //   }}
               className="swiperSlideDiv"
             >
-              <img src={image} alt="" width="100%" height="300px" />
+              <img src={image} alt="" width="100%" height="500px" />
             </div>
           </SwiperSlide>
         ))}
