@@ -223,7 +223,7 @@ const CreateListing = () => {
               value="sale"
               onClick={onMutate}
             >
-              Sell
+              Rent
             </button>
             <button
               type="button"
